@@ -22,6 +22,7 @@ For more information on loading CSV files into Neo4j, see
 ### Nodes
 
 * `Person`
+* `Group`
 * `Location`
 * `State`
 * `Event`
@@ -29,9 +30,10 @@ For more information on loading CSV files into Neo4j, see
 ### Relationships
 
 * `(Location)-[:IS_IN]->(State)`
-* `(Person)-[:IS_MARRIED_TO]-(Person)`
-* `(Person)-[:IS_SIBLING_OF]-(Person)`
+* `(Person)-[:MARRIED {ordinality: int}]->(Person)`
+* `(Person)-[:IS_SIBLING_OF]->(Person)`
 * `(Person)-[:IS_CHILD_OF]->(Person)`
+* `(Person)-[:IS_PART_OF]->(Group)`
 * `(Person)-[:BORN_IN]->(Location)`
 * `(Person)-[:DIED_AT]->(Location)`
 * `(Event)-[:IS_IN]->(Location)`
