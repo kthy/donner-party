@@ -1,26 +1,26 @@
-id,lastName,firstName,maidenName,gender,dateBirth,dateDeath,survivor
-2,Donner,George,,M,1784,1847-03,FALSE
-3,Donner,Tamsen,,F,1802,,FALSE
-4,Donner,Jacob,,M,1789,1846,FALSE
-5,Donner,George (Sr.),,M,1752,1844,FALSE
-6,Donner,Mary,Huff,F,1755,1842,FALSE
-7,Reed,James Frazier,,M,1800-11-14,1874-07-24,TRUE
-8,Reed,Margret Wilson,Keyes,F,1814-03-31,1861-11-25,TRUE
-9,Reed,Virginia Elizabeth,Backenstoe,F,
-10,Reed,Martha Jane ("Patty"),,F,
-11,Reed,James Frazier (Jr.),,M,
-12,Reed,Thomas Keyes,,M,
-13,Reed,Gershom Francis,,M,1844-12-29,1845-12-10,FALSE
-14,Frazier,Martha,,F,,,FALSE
-15,Keyes,Humphrey,,M,1764-11-13,1833-10-11,FALSE
-16,Keyes,Sarah,Handley,F,1776,1846-05-29,FALSE
-17,Backenstoe,Lloyd,,M,1811,1834-09,FALSE
-18,Keyes,Elizabeth,,F,,,FALSE
-19,Keyes,James Washington,,M,,,FALSE
-20,Reed,Charles Cadden,,M,1848-02-06,,FALSE
-21,Reed,Willianoski Yount,,M,1850,1859,FALSE
-22,Keyes,Gershom,,M,,,FALSE
-23,Keyes,Alexander,,M,,,FALSE
-24,Keyes,Robert Cadden,,M,,,FALSE
-25,Handley,John,,M,1746,1811-01-13,FALSE
-26,Handley,Mary,Harrison,F,1745,1829-12-04,FALSE
+id,lastName,firstName,maidenName,suffix,gender,dateBirth,dateDeath,survivor
+2,Donner,George,,Jr.,M,1784,1847-03,
+3,Donner,Tamsen,,,F,1802,,
+4,Donner,Jacob,,,M,1789,1846,
+5,Donner,George,,Sr.,M,1752,1844,
+6,Donner,Mary,Huff,,F,1755,1842,
+7,Reed,James Frazier,,Sr.,M,1800-11-14,1874-07-24,TRUE
+8,Reed,Margret Wilson,Keyes,,F,1814-03-31,1861-11-25,TRUE
+9,Reed,Virginia Elizabeth,Backenstoe,,F,,,TRUE
+10,Reed,Martha Jane ("Patty"),,,F,,,
+11,Reed,James Frazier,,Jr.,M,,,
+12,Reed,Thomas Keyes,,,M,,,
+13,Reed,Gershom Francis,,,M,1844-12-29,1845-12-10,
+14,Frazier,Martha,,,F,,,
+15,Keyes,Humphrey,,,M,1764-11-13,1833-10-11,
+16,Keyes,Sarah,Handley,,F,1776,1846-05-29,
+17,Backenstoe,Lloyd,,,M,1811,1834-09,
+18,Keyes,Elizabeth,,,F,,,
+19,Keyes,James Washington,,,M,,,
+20,Reed,Charles Cadden,,,M,1848-02-06,,
+21,Reed,Willianoski Yount,,,M,1850,1859,
+22,Keyes,Gershom,,,M,,,
+23,Keyes,Alexander,,,M,,,
+24,Keyes,Robert Cadden,,,M,,,
+25,Handley,John,,,M,1746,1811-01-13,
+26,Handley,Mary,Harrison,,F,1745,1829-12-04,
