@@ -7,6 +7,8 @@ CALL apoc.schema.assert({},{},true);
 MATCH (n) DETACH DELETE n;
 
 // Create constraints and indices
+CREATE CONSTRAINT uniq_group_name ON (g:Group) ASSERT g.name IS UNIQUE;
+
 CREATE CONSTRAINT uniq_location_csvid ON (l:Location) ASSERT l.csvId IS UNIQUE;
 CREATE INDEX idx_location_ll FOR (l:Location) ON (l.ll);
 
@@ -41,9 +43,14 @@ MATCH (loc:Location {csvId: toInteger(csvLine.id)})
 MATCH (state:State {abbr: csvLine.state})
 CREATE (loc)-[:IN]->(state);
 
+// Create groups
+LOAD CSV WITH HEADERS FROM 'file:///groups.csv' AS csvLine
+CREATE (:Group { name: csvLine.name });
+
 // Create Person nodes
 LOAD CSV WITH HEADERS FROM 'file:///peanut-gallery.csv' AS csvLine
-CREATE (:Person {
+OPTIONAL MATCH (g:Group {name: csvLine.group})
+CREATE (p:Person {
     csvId: toInteger(csvLine.id)
   , lastName: csvLine.lastName
   , firstName: csvLine.firstName
@@ -61,7 +68,8 @@ CREATE (:Person {
   , dateBirth: csvLine.dateBirth
   , dateDeath: csvLine.dateDeath
   , survivor: coalesce(toBoolean(csvLine.survivor), FALSE)
-});
+})
+CREATE (p)-[:IS_IN]->(g);
 
 // Create marriage relations
 LOAD CSV WITH HEADERS FROM "file:///marriages.csv" AS csvLine
