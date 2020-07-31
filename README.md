@@ -33,10 +33,15 @@ For more information on loading CSV files into Neo4j, see
 * `(Person)-[:MARRIED {ordinality: int}]->(Person)`
 * `(Person)-[:IS_SIBLING_OF]->(Person)`
 * `(Person)-[:IS_CHILD_OF]->(Person)`
-* `(Person)-[:IS_PART_OF]->(Group)`
+* `(Person)-[:IS_IN]->(Group)`
 * `(Person)-[:BORN_IN]->(Location)`
 * `(Person)-[:DIED_AT]->(Location)`
 * `(Event)-[:IS_IN]->(Location)`
+
+## Database
+
+Scripts are tested on a Neo4j v4.1 instance with
+`cypher.lenient_create_relationship=true`.
 
 ## Sources
 
