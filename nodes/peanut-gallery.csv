@@ -1,26 +1,53 @@
-id,lastName,firstName,maidenName,suffix,gender,dateBirth,dateDeath,survivor
-2,Donner,George,,Jr.,M,1784,1847-03,
-3,Donner,Tamsen,,,F,1802,,
-4,Donner,Jacob,,,M,1789,1846,
-5,Donner,George,,Sr.,M,1752,1844,
-6,Donner,Mary,Huff,,F,1755,1842,
-7,Reed,James Frazier,,Sr.,M,1800-11-14,1874-07-24,TRUE
-8,Reed,Margret Wilson,Keyes,,F,1814-03-31,1861-11-25,TRUE
-9,Reed,Virginia Elizabeth,Backenstoe,,F,,,TRUE
-10,Reed,Martha Jane ("Patty"),,,F,,,
-11,Reed,James Frazier,,Jr.,M,,,
-12,Reed,Thomas Keyes,,,M,,,
-13,Reed,Gershom Francis,,,M,1844-12-29,1845-12-10,
-14,Frazier,Martha,,,F,,,
-15,Keyes,Humphrey,,,M,1764-11-13,1833-10-11,
-16,Keyes,Sarah,Handley,,F,1776,1846-05-29,
-17,Backenstoe,Lloyd,,,M,1811,1834-09,
-18,Keyes,Elizabeth,,,F,,,
-19,Keyes,James Washington,,,M,,,
-20,Reed,Charles Cadden,,,M,1848-02-06,,
-21,Reed,Willianoski Yount,,,M,1850,1859,
-22,Keyes,Gershom,,,M,,,
-23,Keyes,Alexander,,,M,,,
-24,Keyes,Robert Cadden,,,M,,,
-25,Handley,John,,,M,1746,1811-01-13,
-26,Handley,Mary,Harrison,,F,1745,1829-12-04,
+id,group,lastName,firstName,maidenName,suffix,gender,dateOfBirth,placeOfBirth,dateOfDeath,placeofDeath,survivor
+2,Donner,Donner,George,,Jr.,M,1786-03-07,4,1847-03,2,
+3,,Donner,George,,Sr.,M,1752,7,1844-06-27,5,
+4,,Donner,Mary,Huff,,F,1755,,1842-03-15,5,
+5,,Donner,Susannah,Holloway,,F,,,,,
+6,,Donner,Mary,Blue,,F,,,,,
+7,Donner,Donner,Tamsen,Eustis,,F,1801-11-01,9,1847-03,3,
+8,,Donner,Mary Polly,,,F,,,,,
+9,,Donner,William,,,M,,,,,
+10,,Donner,Elizabeth,,,F,,,,,
+11,,Donner,Sarah,,,F,,,,,
+12,,Donner,Susannah M.,,,F,,,,,
+13,,Donner,Lydia,,,F,,,,,
+14,Donner,Donner,Elitha Cumi,,,F,1832-10-16,10,1923-07-07,11,TRUE
+15,Donner,Donner,Leanna Charity,,,F,1834-12-05,5,1930-05-29,12,TRUE
+16,Donner,Donner,Frances Eustis,,,F,1840-07-08,5,1921-11-21,13,TRUE
+17,Donner,Donner,Georgia Ann,,,F,1841-12-04,5,1911-12-13,14,TRUE
+18,Donner,Donner,Eliza Poor,,,F,1843-03-08,5,1922-02-19,15,TRUE
+19,,Dozier,Tully B.,,,M,,,1831-12-24,8,
+20,,Dozier,?,,,M,1830,8,1831-09-28,8,
+21,,Dozier,,,,F,1831-11-18,8,1831-11-18,8,
+22,,Eustis,William,,,M,1757-08-19,,1843-02-11,9,
+23,,Eustis,Tamsen,Wheelwright,,F,1762-11-09,,1808-08-07,9,
+24,Donner,Donner,Jacob,,,M,1790,4,1846-12-20 (latest),2,
+25,Donner,Donner,Elizabeth,Blue,,F,1807,,1847-03,2,
+26,Donner,Donner,George,,III,M,1836-08-10,5,1874-02-17,18,TRUE
+27,Donner,Donner,Mary Martha,,,F,1839-03-18,5,1860-06-21,6,TRUE
+28,Donner,Donner,Isaac,,,M,1842,5,1847,2,
+29,Donner,Donner,Samuel,,,M,1843,5,1847-03,2,
+30,Donner,Donner,Lewis,,,M,1844,5,1847-03,2,
+31,,Hook,James,,,M,,,,,
+32,Donner,Hook,Solomon Elijah,,,M,1832-01-11,5,1878-09-22,16,TRUE
+33,Donner,Hook,William,,,M,1834,5,1847-03,17,
+37,Reed,Reed,James Frazier,,Sr.,M,1800-11-14,,1874-07-24,,TRUE
+38,Reed,Reed,Margret Wilson,Keyes,,F,1814-03-31,,1861-11-25,,TRUE
+39,Reed,Reed,Virginia Elizabeth,Backenstoe,,F,,,,,TRUE
+40,Reed,Reed,Martha Jane ('Patty'),,,F,,,,,
+41,,Reed,James Frazier,,Jr.,M,,,,,
+42,,Reed,Thomas Keyes,,,M,,,,,
+43,,Reed,Gershom Francis,,,M,1844-12-29,,1845-12-10,,
+44,,Frazier,Martha,,,F,,,,,
+45,,Keyes,Humphrey,,,M,1764-11-13,,1833-10-11,,
+46,,Keyes,Sarah,Handley,,F,1776,,1846-05-29,,
+47,,Backenstoe,Lloyd,,,M,1811,,1834-09,,
+48,,Keyes,Elizabeth,,,F,,,,,
+49,,Keyes,James Washington,,,M,,,,,
+50,,Reed,Charles Cadden,,,M,1848-02-06,,,,
+51,,Reed,Willianoski Yount,,,M,1850,,1859,,
+52,,Keyes,Gershom,,,M,,,,,
+53,,Keyes,Alexander,,,M,,,,,
+54,,Keyes,Robert Cadden,,,M,,,,,
+55,,Handley,John,,,M,1746,,1811-01-13,,
+56,,Handley,Mary,Harrison,,F,1745,,1829-12-04,,
