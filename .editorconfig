@@ -1,0 +1,14 @@
+# http://editorconfig.org
+root = true
+
+[*]
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{csv,md,py}]
+charset = utf-8
+
+[*.{cmd,cypher}]
+charset = latin1
