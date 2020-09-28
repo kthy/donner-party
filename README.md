@@ -33,6 +33,7 @@ For more information on loading CSV files into Neo4j, see
 * `(Person)-[:MARRIED {ordinality: int}]->(Person)`
 * `(Person)-[:IS_SIBLING_OF]->(Person)`
 * `(Person)-[:IS_CHILD_OF]->(Person)`
+* `(Person)-[:IS_IN]->(Event)`
 * `(Person)-[:IS_IN]->(Group)`
 * `(Person)-[:BORN_IN]->(Location)`
 * `(Person)-[:DIED_AT]->(Location)`

@@ -15,4 +15,5 @@ id,name,county,state,lon,lat
 15,Los Angeles,Los Angeles,CA,-118.25,34.05
 16,Winters,Yolo,CA,,
 17,Bear Valley,,CA,,
-18,Sebastopol,Sonoma,CA,,
+18,Sebastopol,Sonoma,CA,-122.826944,38.399167
+19,Independence,Jackson,MO,-94.406667,39.079722
